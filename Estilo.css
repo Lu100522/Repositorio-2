@@ -1,0 +1,120 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif; color: white;
+    
+}
+
+.contenedorpapá {
+    background-image: url(./Imagenes/fondonet.jpg);
+    height: 100vh;
+}
+
+.contenedorhijo {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.seccion2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+
+}
+
+.seccion3 {
+    justify-items:right
+    
+}
+
+.contenedorhijo2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 50px;
+
+}
+
+.seccion4 {
+    display: grid;
+    grid-template-rows:auto auto auto ;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nieto1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-left: 70px;
+}
+
+.nieto2 {
+    font-size: 25px;
+    height: 10px;
+}
+
+.nieto3 {
+    font-size: 15px;
+    height: 10px;
+}
+
+
+.seccion5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+   
+}
+
+.iniciar {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height:50px ;
+    padding-left: 30px; 
+    background-color:red;
+    border-radius: 4px;
+}
+
+
+.articulo1 {
+    padding-top: 20px;
+
+}
+
+.snap1 {
+    font-size: x-large;
+    width: 150px;
+    justify-items: center;
+    background-color: red;
+    border-radius: 2px;
+    padding-top: 12px;
+    padding-left: 45px;
+}
+
+.imagen1 {
+    width: 170px;
+    height: 130px;
+    margin-left: 40px;
+}
+
+.imagen2 {
+    width: 20px;
+    height: 20px;
+    margin-top: 19px;
+}
+
+.imagen3 {
+    width: 40px;
+    margin-right:30px;
+    margin-top: 10px;
+    
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+}
